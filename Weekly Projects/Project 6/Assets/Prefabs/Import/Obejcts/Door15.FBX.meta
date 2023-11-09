@@ -1,0 +1,192 @@
+fileFormatVersion: 2
+guid: 583b4270d542fea4aa30674f76094bd0
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: Box001
+    100002: //RootNode
+    100004: Door15_glass
+    100006: Object086
+    100008: Object088
+    100010: Door15
+    100012: Door15_mesh
+    100014: Glass01
+    100016: Glass02
+    100018: Joint01
+    100020: Joint02
+    400000: Box001
+    400002: //RootNode
+    400004: Door15_glass
+    400006: Object086
+    400008: Object088
+    400010: Door15
+    400012: Door15_mesh
+    400014: Glass01
+    400016: Glass02
+    400018: Joint01
+    400020: Joint02
+    2300000: Box001
+    2300002: //RootNode
+    2300004: Door15_glass
+    2300006: Object086
+    2300008: Object088
+    2300010: Door15_mesh
+    2300012: Glass01
+    2300014: Glass02
+    3300000: Box001
+    3300002: //RootNode
+    3300004: Door15_glass
+    3300006: Object086
+    3300008: Object088
+    3300010: Door15_mesh
+    3300012: Glass01
+    3300014: Glass02
+    4300000: Door15
+    4300002: Object086
+    4300004: Object088
+    4300006: Box001
+    4300008: Door15_glass
+    4300010: Door15_mesh
+    4300012: Glass02
+    4300014: Glass01
+    7400000: Door_open
+    11100000: //RootNode
+    13700000: Door15_mesh
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Door15_glass_mtl
+    second: {fileID: 2100000, guid: 33f07f917ce57e949a5dd46fa24a5ddd, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Door15_mtl
+    second: {fileID: 2100000, guid: 407a59e97e3adad40b573205a9046149, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 1
+    materialSearch: 1
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Door_open
+      takeName: Take 001
+      firstFrame: 0
+      lastFrame: 97.00001
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Door15
+        weight: 1
+      - path: Door15/Joint01
+        weight: 1
+      - path: Door15/Joint01/Glass01
+        weight: 1
+      - path: Door15/Joint02
+        weight: 1
+      - path: Door15/Joint02/Glass02
+        weight: 1
+      - path: Door15_mesh
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 0
+    importBlendShapes: 1
+    importCameras: 0
+    importLights: 0
+    swapUVChannels: 0
+    generateSecondaryUV: 1
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 0
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 1
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 1
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
